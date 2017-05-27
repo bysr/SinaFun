@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--录制视频控件-->
+    <declare-styleable name="MovieRecorderView">
+        <!-- 开始是否打开摄像头 -->
+        <attr name="is_open_camera" format="boolean" />
+        <!-- 一次拍摄最长时间 -->
+        <attr name="record_max_time" format="integer" />
+        <!-- 视频分辨率宽度 -->
+        <attr name="record_width" format="integer" />
+        <!-- 视频分辨率高度 -->
+        <attr name="record_height" format="integer" />
+    </declare-styleable>
+
+    <!-- FlickeringTextView -->
+    <declare-styleable name="FlickeringTextView">
+        <attr name="flickeringColor" format="color" />
+    </declare-styleable>
+
+    <!-- RingProgressBar -->
+    <declare-styleable name="RingProgressBar">
+        <attr name="startColor" format="color" />
+        <attr name="centerColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="max" format="float" />
+        <attr name="progress" format="float" />
+    </declare-styleable>
+
+
+    <string-array name="media_names">
+        <item>Big Buck Bunny</item>
+        <item>Elephants Dream</item>
+        <item>Sintel</item>
+        <item>Tears of Steel</item>
+    </string-array>
+
+    <string-array name="media_uris">
+        <item>http://archive.org/download/BigBuckBunny_328/BigBuckBunny_512kb.mp4</item>
+        <item>http://archive.org/download/ElephantsDream_277/elephant_dreams_640_512kb.mp4</item>
+        <item>http://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4</item>
+        <item>http://archive.org/download/Tears-of-Steel/tears_of_steel_720p.mp4</item>
+    </string-array>
+
+    <string-array name="dialog_types">
+        <item>Simple</item>
+        <item>Simple with Action Bar</item>
+        <item>Button bar</item>
+    </string-array>
+
+    <string-array name="alert_dialog_types">
+        <item>Simple</item>
+        <item>Simple with buttons</item>
+        <item>List (single choice)</item>
+        <item>List (multi choice)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+    >
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_dismiss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="关闭loading"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_common_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="菊花loading"/>
+
+            <Button
+                android:id="@+id/btn_context_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="md loading"/>
+
+            <Button
+                android:id="@+id/btn_context_progress_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="horizontal progress"/>
+
+            <Button
+                android:id="@+id/btn_context_progress_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="horizontal circle"/>
+
+            <Button
+                android:id="@+id/btn_material_alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="material_alert"/>
+
+            <Button
+                android:id="@+id/btn_multichoose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="multi_choose"/>
+
+            <Button
+                android:id="@+id/btn_singlechoose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="single_choose"/>
+
+            <Button
+                android:id="@+id/btn_ios_alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="ios_alert"/>
+
+            <Button
+                android:id="@+id/btn_ios_alert_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="ios_alert_vertical"/>
+
+            <Button
+                android:id="@+id/btn_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:onClick="OnClickStart"
+                android:text="input"/>
+
+
+            <Button
+                android:id="@+id/btn_ios_bottom_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="ios_bottom_sheet"/>
+
+            <Button
+                android:id="@+id/btn_ios_center_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="ios_center_list"/>
+
+            <Button
+                android:id="@+id/btn_md_bs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="md_bottomsheet"/>
+
+            <Button
+                android:id="@+id/btn_md_bs_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="md_bottomsheet_listview"/>
+
+            <Button
+                android:id="@+id/btn_md_bs_Gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="md_bottomsheet_gridview"/>
+
+            <Button
+                android:id="@+id/btn_customview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClickStart"
+                android:text="customview"/>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <hipad.unittest.AutoScrollView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0f0f0">
+
+        <TextView
+            android:text="A"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF4081"/>
+
+        <TextView
+            android:text="B"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f0f0f0"/>
+
+        <TextView
+            android:text="C"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3F51B5"/>
+    </hipad.unittest.AutoScrollView>
+
+    <hipad.unittest.RingProgressBar
+        android:id="@+id/ringProgressBar"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:layout_centerInParent="true"
+        app:centerColor="#FF4081"
+        app:endColor="#3F51B5"
+        app:startColor="#3F51B5" />
+
+    <hipad.unittest.FlickeringTextView
+        android:visibility="visible"
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="开始录制\nStart"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        app:flickeringColor="#FF4081" />
+</RelativeLayout>
